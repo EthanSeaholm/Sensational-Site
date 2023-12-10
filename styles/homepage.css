@@ -1,0 +1,116 @@
+html {
+  /* The following config converts 1rem to 10px */
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+
+body {            /* general styling for the SENSATIONAL header/its border, as well as the entire site's Chicago wallpaper */
+  font-family: "Arial", sans-serif;
+  color: #eee;
+  margin: auto;
+  background-image: url("/images/chicago-bw-blur.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+
+header {            /* specifially for styling the SENSATIONAL header */
+  background-color: black;
+  font-size: 8.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-style: double;
+  border-width: 4px;
+  border-left: 50px;
+  border-right: 50px;
+  padding: 20px;
+}
+
+
+/* ELEMENTS */
+
+
+a {           /* link/button border styling */
+  background: black;
+  text-decoration: none;
+  border-style: solid;
+  border-color: white;
+  border-radius: 6px;
+  border-width: 1px;
+  padding: 5px;
+}
+
+
+a:link, a:visited {           /* keeps all links/text white after visiting them, not purple */
+  color: white;
+}
+
+
+.nav_menu {           /* link/button/text general styling (where it's positioned on the page, etc) */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0;
+  margin: 30px;
+  font-family: "Poppins", "sans-serif";
+  list-style-type: none;
+  font-size: 2.2rem;
+}
+
+
+.nav_menu--title {            /* SENSATIONAL border styling */
+  border-left: 50px;
+  border-right: 50px;
+}
+
+
+.nav_menu--title:hover {
+  color: rgb(209, 209, 209);
+}
+
+.nav_menu--item {
+  padding: 25px;
+}
+
+
+.nav_menu--sensational:hover {
+    color: yellow;
+    border-color: yellow;
+}
+
+
+.nav_menu--nowadays:hover {
+    color: aqua;
+    border-color: aqua;
+}
+
+
+.nav_menu--youtube:hover {
+    color: red;
+    border-color: red;
+}
+
+
+.nav_menu--insta:hover {
+    color: lime;
+    border-color: lime;
+}
+
+
+.nav_menu--merch:hover {
+    color: rgb(221, 73, 221);
+    border-color: rgb(221, 73, 221);
+}
+
+#video {
+    position: absolute;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -32%);
+    padding: 50px;
+}
